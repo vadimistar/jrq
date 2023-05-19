@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;700&display=swap');
+@import "react-slideshow-image/dist/styles.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+    height: 100%;
+    width: 100%;
+    font-family: "Wix Madefor Display", sans-serif;
+    @apply bg-background-100;
+    @apply text-gray-500;
+}
